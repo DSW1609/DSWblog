@@ -1,0 +1,51 @@
+@charset "utf-8";
+.zytx{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+}
+.zydh{
+	position: absolute;
+	width: 100px;
+	height: 310px;
+	margin-top: 155px;
+	margin-left: 45px;
+	padding: 0px;
+	border: rgba(255,255,255,1.00) solid 1px;
+	border-radius: 20px;
+}
+ul{
+	width: 120px;
+	padding: 0px;
+	margin-top: -5px;
+	margin-left: -5px;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	letter-spacing: 5px;
+	word-spacing: 2em;
+}
+.zydh a:link ,a:visited{
+	color: #000;
+}
+.zydh a:hover {
+	color:rgba(255,111,97,1.00);
+}
+/*背景有用 color无效果*/
+.zydh li:first-child{
+	color:rgba(255,111,97,1.00);
+}
+.zybj{
+	position: absolute;
+	width: 1200px;
+	height: 150px;
+	background-image:url(../image/zybj2.png);
+}
+.jlzybj{
+	position: absolute;
+	width: 1200px;
+	height: 150px;
+	background-image:url(../image/KADJL.jpg);
+}
