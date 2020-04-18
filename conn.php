@@ -8,7 +8,7 @@
 
 <body>
 	<?
-  $conn = mysql_connect("localhost","root","123456");
+  $conn = mysql_connect("localhost","root","mysql123");
   mysql_query("set name 'utf-8'");
   mysql_select_db("book",$conn);
 ?>
